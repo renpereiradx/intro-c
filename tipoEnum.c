@@ -23,6 +23,7 @@ int main() {
     enum weekDays day;
     day = TUESDAY;
     card = diamonds;
+    // Hola
     
     printf("Card size %d \n", sizeof(card));
     return 0;
