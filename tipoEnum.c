@@ -24,6 +24,6 @@ int main() {
     day = TUESDAY;
     card = diamonds;
     
-    printf(card);
+    printf("Card size %d \n", sizeof(card));
     return 0;
 }
