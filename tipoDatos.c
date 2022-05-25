@@ -18,3 +18,6 @@
 //      15 decimal places
 //       long double 10 bytes:  3.4E-4932 to 1.1E+4932  
 //      19 decimal places```
+
+// Almacenar un caracter
+// char 1byte = -128 a 127 ===== unsigned char = 0 a 255.
