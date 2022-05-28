@@ -1,7 +1,7 @@
 #include <stdio.h>
-// Las variables son el nombre que se le da al espacio reservado en memoria para guardar informacion y esta puede ir cambiando durante la ejecucion de un programa.
+// Las variables son el nombre que se le da al espacio reservado en memoria para guardar informacion y este puede ir cambiando durante la ejecucion de un programa.
 // Tambien se declaran variables externas, posterior se tienen que volver a definir en el metodo de ejecucion.
-// Las constantes a diferencia de las variables una vez se le asigna un valor ya no puede cambiar.
+// Las constantes a diferencia de las variables una vez se le asigna un valor ya no pueden cambiar.
 
 int i, j, k;
 int a, b, c;
