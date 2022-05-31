@@ -8,7 +8,6 @@ int main()
     printf("opcion 0 para platzi bebidas \n");
     printf("opcion 1 para platzi comidas \n");
     printf("opcion 2 para platzi postres \n");
-  
 
     switch (optOne)
     {
@@ -21,6 +20,8 @@ int main()
         {
         case 0:
             printf("usted eligio una platzi cola cero, mmm rico");
+            // Este break va a romper este ciclo para que no se ejecute las instrucciones que estan al mismo
+            // nivel que el scope de su padre (sale del switch optTwo).
             break;
         case 1:
             printf("usted eligio una platzi cola cpn azucar, mmm rico");
@@ -32,6 +33,7 @@ int main()
             printf("opcion invalida");
             break;
         }
+        // Este break rompe y sale de la estructura switch optOne.
         break;
     case 1:
         printf("usted ha elegido la opcion 1, vera nuestro menu de comidas, elija una: \n");
@@ -71,6 +73,7 @@ int main()
         printf("No ha hecho una eleccion :( . Vuelva pronto :)");
         break;
     }
+
     printf("\n====================================================\n");
     return 0;
 }
