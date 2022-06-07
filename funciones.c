@@ -11,6 +11,7 @@
         int total = n1 + n2;
         return total;
     }
+    Una funcion puede tener o no un returntype y argumentos.
  */
 int power(int base, int exp);
 int main()
